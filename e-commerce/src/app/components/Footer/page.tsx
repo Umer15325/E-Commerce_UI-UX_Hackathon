@@ -6,7 +6,7 @@ const Footer = () => {
 <div>
     <hr className='border-[1px] border-[#D9D9D9] w-[1420px] mb-[48px]'/>
 
-    <div className='w-[1420px] h-[505px] px-[100px] flex flex-col gap-[48px] '>
+    <div className='w-[1420px] h-[457px] px-[100px] flex flex-col gap-[48px] '>
 
 
         <div className='flex gap-[136px]'>

@@ -38,3 +38,14 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+
+            /* SHOP HERO */
+.Shophero{
+  background-image: url(../app/public/ShopHero.png);
+  width: 1440px;
+  height: 316px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
