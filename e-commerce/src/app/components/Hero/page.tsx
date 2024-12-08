@@ -2,9 +2,9 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div className='hero pt-[157.3px]'>
 
-        <div className='big:w-[643px] h-[443px] bg-[#FFF3E3] m-[157.3px_58px_116.53px_739px] 
+        <div className='big:w-[643px] h-[443px] bg-[#FFF3E3] m-[0px_58px_116.53px_739px] 
         p-[62px_43px_37px_39px] border rounded-[10px]'>
 
             <div className='text-[16px] font-[600] mb-[4px]'>New Arrival</div>

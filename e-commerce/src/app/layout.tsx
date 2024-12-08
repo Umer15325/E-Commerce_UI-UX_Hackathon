@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Poppins } from 'next/font/google';
 import Header from "./components/Header/page";
+import Footer from "./components/Footer/page";
 
 const poppins = Poppins({
   subsets: ['latin'], // Add 'latin-ext' or other subsets if needed
@@ -38,6 +39,7 @@ export default function RootLayout({
       >
         <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

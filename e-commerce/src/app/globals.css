@@ -32,10 +32,9 @@ body {
 
 .hero{
   background-image: url(../app/public/hero.png);
-  width: 1440px;
+  width: 1420px;
   height: 716.83px;
-  position: fixed;
-  top: 100px;
+  position: relative;
   background-size: cover;
   background-position: center;
 }
