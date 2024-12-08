@@ -1,3 +1,4 @@
+import { url } from "inspector";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -13,6 +14,13 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
     },
+
+    screens: {
+      'mob' : {'max':'699'},
+      'tab' : '700px',
+      'lap' : '1100px',
+      'big' : '1440px'
+    }
   },
   plugins: [],
 };
