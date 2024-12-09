@@ -8,7 +8,7 @@ import { BsViewList } from 'react-icons/bs';
 const ShopHero = () => {
   return (
     <div>
-        <div className='Shophero flex flex-col justify-center items-center'>
+        <div className='hero2 flex flex-col justify-center items-center'>
 
             <div className='text-[48px] font-[500]'>Shop</div>
 
