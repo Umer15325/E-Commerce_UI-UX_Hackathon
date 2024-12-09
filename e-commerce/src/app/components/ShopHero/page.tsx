@@ -1,9 +1,7 @@
 import React from 'react'
 import { MdOutlineNavigateNext } from "react-icons/md";
-import Image from 'next/image';
-import filter from '../../public/filter.png'
 import { PiCirclesFourFill, PiLineVerticalLight } from 'react-icons/pi';
-import { BsViewList } from 'react-icons/bs';
+import { BsSliders, BsViewList } from 'react-icons/bs';
 
 const ShopHero = () => {
   return (
@@ -26,14 +24,20 @@ const ShopHero = () => {
         <div className='h-[100px] bg-[#F9F1E7] flex justify-between px-[99px] mb-[63px]'>
             {/* left */}
             <div className='flex gap-[28px] items-center'>
-                <div className='flex gap-[12px]'>
-                    <Image src={filter} alt='filter' className='w-[25px] h-[25px]'/>
+
+                <div className='flex gap-[12px] hover:text-[#B88E2F] hover:cursor-pointer items-center'>
+                    <BsSliders className='w-[24px] h-[24px] rotate-180'/>
                     <div className='text-[20px] font-[400]'>Filter</div>
                 </div>
-                <PiCirclesFourFill className='w-[28px] h-[28px]'/>
-                <BsViewList className='w-[24px] h-[24px]'/>
+
+                <PiCirclesFourFill className='w-[28px] h-[28px] hover:text-[#B88E2F] hover:cursor-pointer'/>
+
+                <BsViewList className='w-[24px] h-[24px] hover:text-[#B88E2F] hover:cursor-pointer'/>
+
                 <PiLineVerticalLight className='w-[37px] h-[37px]'/>
+
                 <div className='text-[16px] font-[400]'>Showing 1–16 of 32 results</div>
+
             </div>
 
             {/* right */}

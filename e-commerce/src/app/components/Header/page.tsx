@@ -2,11 +2,11 @@ import React from 'react'
 import { Montserrat } from 'next/font/google'
 import Image from 'next/image';
 import logo from '../../public/logo.png'
-import acc from '../../public/acc.png'
 import Link from 'next/link';
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { IoIosHeartEmpty } from 'react-icons/io';
 import { CiSearch } from 'react-icons/ci';
+import { BsPersonExclamation } from 'react-icons/bs';
 
 
 const montserrat = Montserrat({
@@ -30,23 +30,23 @@ const Header = () => {
 
             {/* Routes */}
             <div className='flex text-[16px] font-[500] w-[430px] justify-between items-center'>
-                <Link href='#'>Home</Link>
-                <Link href='#'>Shop</Link>
-                <Link href='#'>Blog</Link>
-                <Link href='#'>Contact</Link>
+                <Link href='/' className='hover:underline hover:text-[#B88E2F]'>Home</Link>
+                <Link href='/shop' className='hover:underline hover:text-[#B88E2F]'>Shop</Link>
+                <Link href='/blog' className='hover:underline hover:text-[#B88E2F]'>Blog</Link>
+                <Link href='/contact' className='hover:underline hover:text-[#B88E2F]'>Contact</Link>
             </div>
 
             {/* Icons */}
             <div className='flex w-[247px] justify-between items-center'>
-                <Image src={acc} alt='acc' className='w-[28px] h-[28px]'/>
-                <CiSearch  className='w-[28px] h-[28px]'/>
-                <IoIosHeartEmpty  className='w-[28px] h-[28px]'/>
-                <AiOutlineShoppingCart  className='w-[28px] h-[28px]'/>
+                <BsPersonExclamation className='w-[28px] h-[28px] hover:text-[#B88E2F] hover:cursor-pointer'/>
+                <CiSearch  className='w-[28px] h-[28px] hover:text-[#B88E2F] hover:cursor-pointer'/>
+                <IoIosHeartEmpty  className='w-[28px] h-[28px] hover:text-[#B88E2F] hover:cursor-pointer'/>
+                <Link href='/cart'><AiOutlineShoppingCart  className='w-[28px] h-[28px] hover:text-[#B88E2F] hover:cursor-pointer'/></Link>
             </div>
         </div>
 
     </div>
   )
-}
+}   
 
 export default Header

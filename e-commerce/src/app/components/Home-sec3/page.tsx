@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Products from '../../public/Products.png'
+import Link from 'next/link'
 
 const Homesec3
  = () => {
@@ -13,7 +14,7 @@ const Homesec3
                 <div className='text-[16px] font-[500] text-[#616161]'>Our designer already made a lot of beautiful <br /> prototipe of rooms that inspire you</div>
             </div>
 
-            <button className='text-[16px] font-[600] text-[#FFFFFF] w-[176px] h-[48px] bg-[#B88E2F] flex justify-center items-center'>Explore More</button>
+            <Link href='/shop'><button className='text-[16px] font-[600] text-[#FFFFFF] w-[176px] h-[48px] bg-[#B88E2F] border border-[#B88E2F] flex justify-center items-center hover:bg-white hover:text-[#B88E2F]'>Explore More</button></Link>
         </div>
 
         <Image src={Products} alt='products' className='h-[582px] w-[876px]'/>

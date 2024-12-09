@@ -17,10 +17,10 @@ const SPsec1 = () => {
         {/* left */}
         <div className='flex gap-[31px] h-[500px] w-[553px]'>
             <div className='flex flex-col gap-[32px]'>
-            <div className='w-[76px] h-[80px] bg-[#F9F1E7] border rounded-[10px] flex items-center'><Image src={sofa1} alt='product' width={76} height={80}/></div>
-            <div className='w-[76px] h-[80px] bg-[#F9F1E7] border rounded-[10px] flex items-center'><Image src={sofa2} alt='product' width={76} height={80}/></div>
-            <div className='w-[76px] h-[80px] bg-[#F9F1E7] border rounded-[10px] flex items-center'><Image src={sofa3} alt='product' width={76} height={80}/></div>
-            <div className='w-[76px] h-[80px] bg-[#F9F1E7] border rounded-[10px] flex items-center'><Image src={sofa4} alt='product' width={76} height={80}/></div>
+            <div className='w-[76px] h-[80px] bg-[#F9F1E7] border rounded-[10px] flex items-center hover:border-black hover:border-[2px]'><Image src={sofa1} alt='product' width={76} height={80}/></div>
+            <div className='w-[76px] h-[80px] bg-[#F9F1E7] border rounded-[10px] flex items-center hover:border-black hover:border-[2px]'><Image src={sofa2} alt='product' width={76} height={80}/></div>
+            <div className='w-[76px] h-[80px] bg-[#F9F1E7] border rounded-[10px] flex items-center hover:border-black hover:border-[2px]'><Image src={sofa3} alt='product' width={76} height={80}/></div>
+            <div className='w-[76px] h-[80px] bg-[#F9F1E7] border rounded-[10px] flex items-center hover:border-black hover:border-[2px]'><Image src={sofa4} alt='product' width={76} height={80}/></div>
             </div>
 
             <div className='w-[423px] h-[500px] bg-[#F9F1E7] flex items-center border rounded-[10px]'><Image src={sofabig} alt='product' width={481} height={391}/></div>
@@ -62,15 +62,15 @@ const SPsec1 = () => {
             </div>
 
             <div className='flex gap-[18px]'>
-                <button className='w-[123px] h-[64px] border border-[#9F9F9F] rounded-[10px] flex items-center justify-between px-[15px]'>
+                <button className='w-[123px] h-[64px] border border-[#9F9F9F] rounded-[10px] flex items-center justify-between px-[15px] hover:bg-[#B88E2F]'>
                     <p>-</p>
                     <p>1</p>
                     <p>+</p>
                 </button>
 
-                <button className='w-[215px] h-[64px] border border-[#000000] rounded-[10px] flex items-center justify-center'>Add To Cart</button>
+                <button className='w-[215px] h-[64px] border border-[#000000] rounded-[10px] flex items-center justify-center hover:bg-[#B88E2F]'>Add To Cart</button>
 
-                <button className='w-[215px] h-[64px] border border-[#000000] rounded-[10px] flex items-center justify-center'>+ Compare</button>
+                <button className='w-[215px] h-[64px] border border-[#000000] rounded-[10px] flex items-center justify-center hover:bg-[#B88E2F]'>+ Compare</button>
             </div>
 </div>
 

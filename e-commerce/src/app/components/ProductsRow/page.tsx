@@ -4,13 +4,15 @@ import prod2 from '../../public/prod2.png'
 import prod3 from '../../public/prod3.png'
 import prod4 from '../../public/prod4.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const ProductsRow = () => {
   return (
     <div>
         <div className=' flex gap-[32px] justify-center mb-[40px]'>
                 
-                <div className='hover:bg-[#3A3A3A]'>
+                <Link href='single-product'>
+                <div className='hover:border-[3px] hover:border-black'>
                     <Image src={prod1} alt='product' width={285} height={301}/>
                     <div className='p-[20px_18px] bg-[#F4F5F7]'>
                         <div className='text-[24px] font-[600]'>Syltherine</div>
@@ -21,8 +23,10 @@ const ProductsRow = () => {
                         </div>
                     </div>
                 </div>
+                </Link>
     
-                <div>
+                <Link href='single-product'>
+                <div className='hover:border-[3px] hover:border-black'>
                     <Image src={prod2} alt='product' width={285} height={301}/>
                     <div className='p-[20px_18px] bg-[#F4F5F7]'>
                         <div className='text-[24px] font-[600]'>Leviosa</div>
@@ -32,8 +36,10 @@ const ProductsRow = () => {
                         </div>
                     </div>
                 </div>
+                </Link>
     
-                <div>
+                <Link href='single-product'>
+                <div className='hover:border-[3px] hover:border-black'>
                     <Image src={prod3} alt='product' width={285} height={301}/>
                     <div className='p-[20px_18px] bg-[#F4F5F7]'>
                         <div className='text-[24px] font-[600]'>Lolito</div>
@@ -44,8 +50,10 @@ const ProductsRow = () => {
                         </div>
                     </div>
                 </div>
+                </Link>
     
-                <div>
+                <Link href='single-product'>
+                <div className='hover:border-[3px] hover:border-black'>
                     <Image src={prod4} alt='product' width={285} height={301}/>
                     <div className='p-[20px_18px] bg-[#F4F5F7]'>
                         <div className='text-[24px] font-[600]'>Respira</div>
@@ -55,6 +63,7 @@ const ProductsRow = () => {
                         </div>
                     </div>
                 </div>
+                </Link>
     
     
             </div>

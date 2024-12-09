@@ -74,7 +74,7 @@ const ContactSec = () => {
                     </div>
                 </div>
 
-                <button className='text-[16px] font-[400] text-[#FFFFFF] w-[237px] h-[55px] bg-[#B88E2F] flex justify-center items-center border rounded-[5px]'>Submit</button>
+                <button className='text-[16px] font-[400] text-[#FFFFFF] w-[237px] h-[55px] bg-[#B88E2F] flex justify-center items-center border-[#B88E2F] border-[2px] rounded-[5px] hover:bg-white hover:text-[#B88E2F]'>Submit</button>
 
             </div>
         </div>

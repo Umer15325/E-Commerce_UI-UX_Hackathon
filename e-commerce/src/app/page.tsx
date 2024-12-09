@@ -12,6 +12,7 @@ export default function Home() {
       <Hero/>
       <Homesec1/>
       <Homesec2/>
+      <div className="h-[69px]"></div>
       <Homesec3/>
 
       {/* Section 4 */}

@@ -42,7 +42,7 @@ const BlogSection = () => {
 
                 <div className='text-[15px] font-[400] text-[#9F9F9F] text-justify mb-[30px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</div>
 
-                <button className='w-[89px] h-[36px] text-[16px] font-[400] underline'>Read more</button>
+                <button className='w-[89px] h-[36px] text-[16px] font-[400] underline hover:text-[#B88E2F]'>Read more</button>
             </div>
 
 
@@ -70,7 +70,7 @@ const BlogSection = () => {
 
                 <div className='text-[15px] font-[400] text-[#9F9F9F] text-justify mb-[30px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</div>
 
-                <button className='w-[89px] h-[36px] text-[16px] font-[400] underline'>Read more</button>
+                <button className='w-[89px] h-[36px] text-[16px] font-[400] underline hover:text-[#B88E2F]'>Read more</button>
             </div>
 
 
@@ -98,7 +98,7 @@ const BlogSection = () => {
 
                 <div className='text-[15px] font-[400] text-[#9F9F9F] text-justify mb-[30px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</div>
 
-                <button className='w-[89px] h-[36px] text-[16px] font-[400] underline'>Read more</button>
+                <button className='w-[89px] h-[36px] text-[16px] font-[400] underline hover:text-[#B88E2F]'>Read more</button>
             </div>
 
         </div>
@@ -117,23 +117,23 @@ const BlogSection = () => {
                     <div className='text-[24px] font-[500] text-black'>
                         Categories
                     </div>
-                    <div className='flex justify-between'>
+                    <div className='flex justify-between hover:border-black hover:border-[2px] hover:cursor-pointer'>
                         <p>Crafts</p>
                         <p>2</p>
                     </div>
-                    <div className='flex justify-between'>
+                    <div className='flex justify-between hover:border-black hover:border-[2px] hover:cursor-pointer'>
                         <p>Design</p>
                         <p>8</p>
                     </div>
-                    <div className='flex justify-between'>
+                    <div className='flex justify-between hover:border-black hover:border-[2px] hover:cursor-pointer'>
                         <p>Handmade</p>
                         <p>7</p>
                     </div>
-                    <div className='flex justify-between'>
+                    <div className='flex justify-between hover:border-black hover:border-[2px] hover:cursor-pointer'>
                         <p>Interior</p>
                         <p>1</p>
                     </div>
-                    <div className='flex justify-between'>
+                    <div className='flex justify-between hover:border-black hover:border-[2px] hover:cursor-pointer'>
                         <p>Wood</p>
                         <p>6</p>
                     </div>
@@ -148,7 +148,7 @@ const BlogSection = () => {
                 <div className='text-[24px] font-[500] text-black'>Recent Posts</div>
 
                 <div className='flex flex-col gap-[39px]'>
-                    <div className='flex gap-[12px] items-center'>
+                    <div className='flex gap-[12px] items-center hover:border-black hover:border-[2px] hover:cursor-pointer'>
                         <Image src={recent} alt='img' width={80} height={80}/>
                         <div className='flex flex-col gap-[5px]'>
                             <p className='text-[14px] font-[400]'>Going all-in with <br /> millennial design</p>
@@ -156,7 +156,7 @@ const BlogSection = () => {
                         </div>
                     </div>
 
-                    <div className='flex gap-[12px] items-center'>
+                    <div className='flex gap-[12px] items-center hover:border-black hover:border-[2px] hover:cursor-pointer'>
                         <Image src={recent} alt='img' width={80} height={80}/>
                         <div className='flex flex-col gap-[5px]'>
                             <p className='text-[14px] font-[400]'>Going all-in with <br /> millennial design</p>
@@ -164,7 +164,7 @@ const BlogSection = () => {
                         </div>
                     </div>
 
-                    <div className='flex gap-[12px] items-center'>
+                    <div className='flex gap-[12px] items-center hover:border-black hover:border-[2px] hover:cursor-pointer'>
                         <Image src={recent} alt='img' width={80} height={80}/>
                         <div className='flex flex-col gap-[5px]'>
                             <p className='text-[14px] font-[400]'>Going all-in with <br /> millennial design</p>
@@ -172,7 +172,7 @@ const BlogSection = () => {
                         </div>
                     </div>
 
-                    <div className='flex gap-[12px] items-center'>
+                    <div className='flex gap-[12px] items-center hover:border-black hover:border-[2px] hover:cursor-pointer'>
                         <Image src={recent} alt='img' width={80} height={80}/>
                         <div className='flex flex-col gap-[5px]'>
                             <p className='text-[14px] font-[400]'>Going all-in with <br /> millennial design</p>
@@ -180,7 +180,7 @@ const BlogSection = () => {
                         </div>
                     </div>
 
-                    <div className='flex gap-[12px] items-center'>
+                    <div className='flex gap-[12px] items-center hover:border-black hover:border-[2px] hover:cursor-pointer'>
                         <Image src={recent} alt='img' width={80} height={80}/>
                         <div className='flex flex-col gap-[5px]'>
                             <p className='text-[14px] font-[400]'>Going all-in with <br /> millennial design</p>

@@ -15,18 +15,18 @@ const Homesec1 = () => {
 
         <div className='flex gap-[20px]'>
 
-            <div className='flex flex-col gap-[30px] items-center'>
-                <Image src={dining} alt='' width={381} height={480}/>
+            <div className='flex flex-col gap-[30px] items-center hover:border-[3px] hover:border-black'>
+                <Image src={dining} alt='img' width={381} height={480}/>
                 <div className='text-[24px] font-[600]'>Dining</div>
             </div>
 
-            <div className='flex flex-col gap-[30px] items-center'>
-                <Image src={living} alt='' width={381} height={480}/>
+            <div className='flex flex-col gap-[30px] items-center hover:border-[3px] hover:border-black'>
+                <Image src={living} alt='img' width={381} height={480}/>
                 <div className='text-[24px] font-[600]'>Living</div>
             </div>
 
-            <div className='flex flex-col gap-[30px] items-center'>
-                <Image src={bedroom} alt='' width={381} height={480}/>
+            <div className='flex flex-col gap-[30px] items-center hover:border-[3px] hover:border-black'>
+                <Image src={bedroom} alt='img' width={381} height={480}/>
                 <div className='text-[24px] font-[600]'>Bedroom</div>
             </div>
 

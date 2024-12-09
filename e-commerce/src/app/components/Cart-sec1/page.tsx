@@ -28,7 +28,7 @@ const Cartsec1 = () => {
                     <div className='text-[16px] font-[400] text-[#9F9F9F] ml-[69px]'>Rs. 250,000.00</div>
                     <div className='w-[32px] h-[32px] border border-black rounded-[5px] flex justify-center     items-center ml-[84px] mr-[60px]'>1</div>
                     <div className='text-[16px] font-[400] mr-[49px]'>Rs. 250,000.00</div>
-                    <AiFillDelete className='w-[28px] h-[28px] text-[#B88E2F]'/>
+                    <AiFillDelete className='w-[28px] h-[28px] text-[#B88E2F] hover:text-black'/>
                 </div>
             </div>
 
@@ -47,7 +47,7 @@ const Cartsec1 = () => {
                         <div className='text-[16px] font-[500]'>Total</div>
                         <div className='text-[20px] font-[500] text-[#B88E2F]'>Rs. 250,000.00</div>
                     </div>
-                    <button className='w-[222px] h-[59px] border border-black rounded-[15px] text-[20px] font-[400]'>Check Out</button>
+                    <button className='w-[222px] h-[59px] border border-black rounded-[15px] text-[20px] font-[400] hover:bg-[#B88E2F]'>Check Out</button>
                 </div>
 
             </div>

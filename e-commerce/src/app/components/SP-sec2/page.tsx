@@ -8,8 +8,8 @@ const SPsec2 = () => {
 
         <div className='w-[649px] flex justify-between'>
             <div className='text-[24px] font-[500]'>Description</div>
-            <div className='text-[24px] font-[400] text-[#9F9F9F]'>Additional Information</div>
-            <div className='text-[24px] font-[400] text-[#9F9F9F]'>Reviews [5]</div>
+            <div className='text-[24px] font-[400] text-[#9F9F9F] hover:underline hover:cursor-pointer'>Additional Information</div>
+            <div className='text-[24px] font-[400] text-[#9F9F9F] hover:underline hover:cursor-pointer'>Reviews [5]</div>
         </div>
 
         <div className='text-[16px] font-[400] text-[#9F9F9F] w-[1026px] flex flex-col gap-[30px]'>
