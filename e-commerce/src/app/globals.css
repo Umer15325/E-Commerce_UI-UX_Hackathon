@@ -31,13 +31,32 @@ body {
 
             /* SHOP HERO */
 .hero2{
-  background-image: url(../app/public/ShopHero.png);
+  background-image: url(../app/public/ShopHero.png); 
   width: 1440px;
   height: 316px;
   position: relative;
   background-size: cover;
   background-position: center;
 }
+
+          /* RESPONSIVENESS */
+@media (min-width: 320px){
+  .hero{
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (min-width: 1440px){
+  .hero{
+    /* width: 1420px; */
+    height: 716.83px;
+  }
+}
+
+
+
+ /* ------------------------------------------------------------------------------ */
 @layer base {
   :root {
     --background: 0 0% 100%;

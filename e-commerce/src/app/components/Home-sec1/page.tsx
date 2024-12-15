@@ -6,28 +6,41 @@ import bedroom from '../../public/bedroom.png'
 
 const Homesec1 = () => {
   return (
-    <div className='w-[1183px] h-[685px] mt-[57px] mx-[128px] flex flex-col gap-[62px]'>
+    <div className='big:w-[1183px] big:h-[685px] big:mt-[57px] big:mx-[128px] flex flex-col big:gap-[62px]
+    mob:mt-[10%] mob:gap-[30px]'>
 
+            {/* Heading */}
         <div className='flex flex-col items-center'>
-            <div className='text-[32px] font-[700]'>Browse The Range</div>
-            <div className='text-[20px] font-[400] text-[#666666]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <div className='lap:text-[32px] font-[700]
+            mob:text-[24px]'>Browse The Range</div>
+            <div className='lap:text-[20px] font-[400] text-[#666666] text-center
+            mob:text-[16px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
         </div>
 
-        <div className='flex gap-[20px]'>
+            {/* Products */}
+        <div className='flex big:gap-[20px] big:p-0
+        mob:flex-col mob:gap-[40px] mob:px-[5%]
+        lap:flex-row'>
 
-            <div className='flex flex-col gap-[30px] items-center hover:border-[3px] hover:border-black'>
+            <div className='flex flex-col big:gap-[30px] items-center hover:border-[3px] hover:border-black
+            mob:gap-[15px]'>
                 <Image src={dining} alt='img' width={381} height={480}/>
-                <div className='text-[24px] font-[600]'>Dining</div>
+                <div className='tab:text-[24px] font-[600]
+                mob:text-[20px]'>Dining</div>
             </div>
 
-            <div className='flex flex-col gap-[30px] items-center hover:border-[3px] hover:border-black'>
+            <div className='flex flex-col big:gap-[30px] items-center hover:border-[3px] hover:border-black
+            mob:gap-[15px]'>
                 <Image src={living} alt='img' width={381} height={480}/>
-                <div className='text-[24px] font-[600]'>Living</div>
+                <div className='tab:text-[24px] font-[600]
+                mob:text-[20px]'>Living</div>
             </div>
 
-            <div className='flex flex-col gap-[30px] items-center hover:border-[3px] hover:border-black'>
+            <div className='flex flex-col big:gap-[30px] items-center hover:border-[3px] hover:border-black
+            mob:gap-[15px]'>
                 <Image src={bedroom} alt='img' width={381} height={480}/>
-                <div className='text-[24px] font-[600]'>Bedroom</div>
+                <div className='tab:text-[24px] font-[600]
+                mob:text-[20px]'>Bedroom</div>
             </div>
 
         </div>
