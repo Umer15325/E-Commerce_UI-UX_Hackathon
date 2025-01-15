@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const SPsec3 = () => {
   return (
-    <div className='h-[777px] flex flex-col items-center gap-[26px] pb-[104px] pt-[55px]'>
+    <div className='lap:h-[777px] flex flex-col items-center gap-[26px] pb-[104px] pt-[55px]'>
 
         <div className='text-[36px] font-[500]'>Related Products</div>
 

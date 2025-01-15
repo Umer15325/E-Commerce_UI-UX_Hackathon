@@ -9,22 +9,23 @@ import logo from '../../public/logo.png'
 const CartHero = () => {
   return (
 
-        <div className='hero2 flex flex-col justify-center items-center'>
+    <div className='hero2 flex flex-col justify-center items-center
+    mob:py-[15%]
+    tab:py-0'>
 
- 
- <Image src={logo} alt='LOGO' className='w-[50px] h-[32px]'/>
-            <br />           
+        <Image src={logo} alt='LOGO' className='w-[50px] h-[32px]'/>
+        <br />
 
-            <div className='text-[48px] font-[500]'>Cart</div>
+        <div className='text-[48px] font-[500]'>Cart</div>
 
-            <div className='flex gap-[6px] items-center'>
-                <div className='text-[16px] font-[500]'>Home</div>
-                <MdOutlineNavigateNext className='w-[20px] h-[20px]'/>
-                <div className='text-[16px] font-[300]'>Cart</div>
-            </div>
-
-
+        <div className='flex gap-[6px] items-center'>
+            <div className='text-[16px] font-[500]'>Home</div>
+            <MdOutlineNavigateNext className='w-[20px] h-[20px]'/>
+            <div className='text-[16px] font-[300]'>Cart</div>
         </div>
+
+    </div>
+
   )
 }
 

@@ -12,10 +12,11 @@ import { AiFillTwitterCircle } from 'react-icons/ai'
 
 const SPsec1 = () => {
   return (
-    <div className='h-[820px] px-[99px] pt-[35px] pb-[35px] flex justify-between'>
+    <div className='lap:h-[820px] big:px-[99px] pt-[35px] pb-[35px] flex justify-between lap:flex-row big:gap-0 lap:px-[20px] lap:gap-[10px]
+    mob:flex-col mob:px-[5%] mob:gap-[30px]'>
 
         {/* left */}
-        <div className='flex gap-[31px] h-[500px] w-[553px]'>
+        <div className='flex mob:gap-[31px] big:gap-[31px] lap:gap-[10px] lap:h-[500px] lap:w-[553px]'>
             <div className='flex flex-col gap-[32px]'>
             <div className='w-[76px] h-[80px] bg-[#F9F1E7] border rounded-[10px] flex items-center hover:border-black hover:border-[2px]'><Image src={sofa1} alt='product' width={76} height={80}/></div>
             <div className='w-[76px] h-[80px] bg-[#F9F1E7] border rounded-[10px] flex items-center hover:border-black hover:border-[2px]'><Image src={sofa2} alt='product' width={76} height={80}/></div>
@@ -23,11 +24,12 @@ const SPsec1 = () => {
             <div className='w-[76px] h-[80px] bg-[#F9F1E7] border rounded-[10px] flex items-center hover:border-black hover:border-[2px]'><Image src={sofa4} alt='product' width={76} height={80}/></div>
             </div>
 
-            <div className='w-[423px] h-[500px] bg-[#F9F1E7] flex items-center border rounded-[10px]'><Image src={sofabig} alt='product' width={481} height={391}/></div>
+            <div className='lap:w-[423px] lap:h-[500px] bg-[#F9F1E7] flex items-center border rounded-[10px]'><Image src={sofabig} alt='product' width={481} height={391}/></div>
         </div>
 
+
         {/* right */}
-        <div className='h-[730px] w-[606px] flex flex-col gap-[60px]'>
+        <div className='lap:h-[730px] lap:w-[606px] flex flex-col gap-[60px]'>
 
 <div className='flex flex-col gap-[28px]'>
             <div>
@@ -39,7 +41,7 @@ const SPsec1 = () => {
                     <PiLineVerticalLight className='w-[37px] h-[37px] text-[#9F9F9F]'/>
                     <div className='text-[13px] font-[400] text-[#9F9F9F]'>5 Customer Review</div>
                 </div>
-                <div className='text-[13px] font-[400] w-[424px]'>Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.</div>
+                <div className='text-[13px] font-[400] lap:w-[424px]'>Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.</div>
 
             </div>
 
@@ -61,7 +63,8 @@ const SPsec1 = () => {
                 </div>
             </div>
 
-            <div className='flex gap-[18px]'>
+            <div className='flex gap-[18px] lap:flex-row
+            mob:flex-col'>
                 <button className='w-[123px] h-[64px] border border-[#9F9F9F] rounded-[10px] flex items-center justify-between px-[15px] hover:bg-[#B88E2F]'>
                     <p>-</p>
                     <p>1</p>
@@ -75,7 +78,7 @@ const SPsec1 = () => {
 </div>
 
 <div className='flex flex-col gap-[41px]'> 
-            <hr className='w-[605px] border border-[#D9D9D9]'/>
+            <hr className='lap:w-[605px] border border-[#D9D9D9]'/>
 
             <div className='text-[16px] font-[400] text-[#9F9F9F] flex gap-[14px]'>
                 <div className='w-[75px]'>

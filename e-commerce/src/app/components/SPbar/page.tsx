@@ -4,7 +4,8 @@ import { PiLineVerticalLight } from 'react-icons/pi'
 
 const SPbar = () => {
   return (
-    <div className='h-[100px] bg-[#F9F1E7] mt-[14px] flex gap-[24px] items-center px-[99px] text-[16px] font-[400]'>
+    <div className='h-[100px] bg-[#F9F1E7] mt-[14px] flex lap:gap-[24px] items-center lap:px-[99px] text-[16px] font-[400]
+    mob:gap-[1%] mob:px-[5%]'>
 
         <div className='flex gap-[14px] items-center'>
             <div className='text-[#9F9F9F]'>Home</div>

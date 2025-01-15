@@ -5,36 +5,42 @@ import { AiFillDelete } from 'react-icons/ai'
 
 const Cartsec1 = () => {
   return (
-    <div className='h-[525px] flex justify-center items-center'>
+    <div className='lap:h-[525px] flex justify-center items-center '>
 
-        <div className='h-[390px] w-[1240px] flex gap-[30px]'>
+        <div className='lap:h-[390px] w-screen big:w-[1240px] flex lap:flex-row gap-[30px] lap:px-[40px] big:px-0
+        mob:flex-col'>
+
             {/* left */}
-            <div className='flex flex-col gap-[55px]'>
+            <div className='flex lap:flex-col gap-[55px] lap:mt-0
+            mob:flex-row mob:mt-[30px]'>
                 {/* bar */}
-                <div className='w-[817px] h-[55px] bg-[#F9F1E7] text-[16px] font-[500] flex px-[142px] items-center'>
+                <div className='lap:w-[817px] lap:h-[55px] bg-[#F9F1E7] text-[16px] font-[500] flex lap:px-[142px] items-center lap:gap-0 lap:py-0 lap:mx-0 lap:flex-row
+                mob:flex-col mob:gap-[20px] mob:p-[5%] mob:mx-[5%]'>
                      <div>Product</div>
-                     <div className='ml-[114px]'>Price</div>
-                     <div className='ml-[137px]'>Quantity</div>
-                     <div className='ml-[46px] '>Subtotal</div>
+                     <div className='lap:ml-[114px]'>Price</div>
+                     <div className='lap:ml-[137px]'>Quantity</div>
+                     <div className='lap:ml-[46px] '>Subtotal</div>
                 </div>
      
                 {/* below */}
 
-                <div className='flex items-center'>
-                    <div className='w-[108px] h-[105px] border rounded-[5px] bg-[#F9F1E7] flex items-center'>
+                <div className='flex items-center lap:flex-row lap:gap-0 lap:p-0
+                mob:flex-col mob:gap-[20px] mob:p-[5%]'>
+                    <div className='lap:w-[108px] h-[105px] border rounded-[5px] bg-[#F9F1E7] lap:flex items-center hidden'>
                         <Image src={sofabig} alt='img'/>
                     </div>
-                    <div className='text-[16px] font-[400] text-[#9F9F9F] ml-[37px]'>Asgaard sofa</div>
-                    <div className='text-[16px] font-[400] text-[#9F9F9F] ml-[69px]'>Rs. 250,000.00</div>
-                    <div className='w-[32px] h-[32px] border border-black rounded-[5px] flex justify-center     items-center ml-[84px] mr-[60px]'>1</div>
-                    <div className='text-[16px] font-[400] mr-[49px]'>Rs. 250,000.00</div>
+                    <div className='text-[16px] font-[400] text-[#9F9F9F] lap:ml-[37px]'>Asgaard sofa</div>
+                    <div className='text-[16px] font-[400] text-[#9F9F9F] lap:ml-[69px]'>Rs. 250,000.00</div>
+                    <div className='lap:w-[32px] lap:h-[32px] lap:border border-black rounded-[5px] flex justify-center items-center lap:ml-[84px] lap:mr-[60px]'>1</div>
+                    <div className='text-[16px] font-[400] lap:mr-[49px]'>Rs. 250,000.00</div>
                     <AiFillDelete className='w-[28px] h-[28px] text-[#B88E2F] hover:text-black'/>
                 </div>
             </div>
 
 
             {/* right */}
-            <div className='w-[393px] h-[390px] bg-[#F9F1E7] flex flex-col items-center py-[15px] gap-[61px]'>
+            <div className='lap:w-[393px] lap:h-[390px] bg-[#F9F1E7] flex flex-col items-center py-[15px] gap-[61px]
+            '>
 
                 <div className='text-[32px] font-[600]'>Cart Totals</div>
 
