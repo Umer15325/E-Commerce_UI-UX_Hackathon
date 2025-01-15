@@ -8,7 +8,7 @@ const blog = () => {
     <div>
         <BlogHero/>
         <BlogSection/>
-        <div className='h-[58px]'></div>
+        <div className='h-[58px] hidden lap:block'></div>
         <PinkBar/>
         <div className='h-[22px]'></div>
     </div>

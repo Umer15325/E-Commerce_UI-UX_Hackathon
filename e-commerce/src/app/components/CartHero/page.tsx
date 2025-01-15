@@ -12,8 +12,8 @@ const CartHero = () => {
         <div className='hero2 flex flex-col justify-center items-center'>
 
  
-            <Image src={logo} alt='LOGO' className='w-[50px] h-[32px]'/>
-            <br />
+ <Image src={logo} alt='LOGO' className='w-[50px] h-[32px]'/>
+            <br />           
 
             <div className='text-[48px] font-[500]'>Cart</div>
 

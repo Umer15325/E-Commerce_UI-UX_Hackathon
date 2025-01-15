@@ -2,6 +2,8 @@ import React from 'react'
 import { MdOutlineNavigateNext } from "react-icons/md";
 import { PiCirclesFourFill, PiLineVerticalLight } from 'react-icons/pi';
 import { BsSliders, BsViewList } from 'react-icons/bs';
+import Image from 'next/image';
+import logo from '../../public/logo.png'
 
 const ShopHero = () => {
   return (
@@ -9,6 +11,9 @@ const ShopHero = () => {
         <div className='hero2 flex flex-col justify-center items-center
         mob:py-[15%]
         tab:py-0'>
+
+            <Image src={logo} alt='LOGO' className='w-[50px] h-[32px]'/>
+            <br />
 
             <div className='text-[48px] font-[500]'>Shop</div>
 

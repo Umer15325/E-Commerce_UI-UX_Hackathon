@@ -8,9 +8,10 @@ import logo from '../../public/logo.png'
 const BlogHero = () => {
   return (
 
-        <div className='hero2 flex flex-col justify-center items-center'>
+        <div className='hero2 flex flex-col justify-center items-center
+        mob:py-[15%]
+        tab:py-0'>
 
- 
             <Image src={logo} alt='LOGO' className='w-[50px] h-[32px]'/>
             <br />
 
@@ -21,7 +22,6 @@ const BlogHero = () => {
                 <MdOutlineNavigateNext className='w-[20px] h-[20px]'/>
                 <div className='text-[16px] font-[300]'>Blog</div>
             </div>
-
 
         </div>
   )
